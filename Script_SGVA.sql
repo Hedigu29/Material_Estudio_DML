@@ -1,6 +1,6 @@
-CREATE DATABASE TRazabilidad_SGVA;
+CREATE DATABASE Trazabilidad_SGVA;
 
-USE TRazabilidad_SGVA;
+USE Trazabilidad_SGVA;
 
 CREATE TABLE Empresa (
     CodigoEmpresa INT NOT NULL AUTO_INCREMENT,
