@@ -20,5 +20,9 @@ CREATE TABLE Trazabilidad (
     FechaCierre DATE NULL,
     CodigoEmpresa INT NOT NULL,
     
-    PRIMARY KEY (IdTrazabilidad)
+    PRIMARY KEY (IdTrazabilidad),
+    
+    CONSTRAINT fk_empresa_trazabilidad
+    FOREIGN KEY (CodigoEmpresa)
+    REFERENCES Empresa (CodigoEmpresa)
 );
